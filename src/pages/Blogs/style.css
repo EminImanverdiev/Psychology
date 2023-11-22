@@ -1,0 +1,20 @@
+#blog .blog-detail-container{
+    width: 70%;
+    margin: 20px auto;
+}
+.container-portf-pictures{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-portf-pictures img{
+    width: 45%;
+    height: 200px;
+    margin-top: 20px;
+}
+#blog .port-header{
+    margin: 45px 25px;
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Overpass:ital,wght@0,400;1,300&family=Playfair+Display&family=Poppins:wght@100&family=Quicksand&family=Roboto:wght@100&display=swap');
+#service-contact .container-fluid{
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #FFE4B4;
+}
+#service-contact .container-fluid .col-xxl-6{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(1){
+    position: relative;
+    background-color: red;
+    height: 100%;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(1) img{
+    position: absolute;
+    width: 70%;
+    bottom: -500px;
+    object-fit: contain;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box{
+     margin-top: 10%;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box form{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box input{
+    width: 45%;
+    height: 60px;
+    padding-left: 20px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box input:focus{
+    outline: none;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box input:last-child{
+    padding-left: 0px;
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 500ms;
+    margin-top: 40px;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box h2{
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0px;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box p{
+    color: #616161;
+    font-family: 'Overpass', sans-serif;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box .content{
+    width: 70% !important;
+}
+#service-contact .container-fluid .col-xxl-6:nth-child(2) .service-content-box input:last-child:hover{
+    background-color: black;
+    color: #f2f2f2;
+}

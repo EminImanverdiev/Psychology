@@ -1,0 +1,76 @@
+#consultation{
+    width: 100%;
+    padding: 50px 0px;
+}
+#consultation .col-xxl-6 img{
+    width: 100%;
+    height: 100%;
+}
+#consultation .container-fluid{
+    width: 90%;
+    margin: 20px auto;
+}
+#consultation .container-fluid h1{
+    font-family: 'Playfair Display', serif !important;
+    margin: 20px 0px;
+    color: #1d1d1d;
+
+}
+#consultation .container-fluid .consul-title{
+    margin-top: 10%;
+    color: #616161;
+}
+#consultation .container-fluid .consul-content{
+    color: #616161;
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2){
+    padding-left: 30px;
+
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2) form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2) input,#consultation .container-fluid .col-xxl-6:nth-child(2) textarea,#consultation .container-fluid .col-xxl-6:nth-child(2) select{
+    width: 48%;
+    height: 60px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    font-weight: 400;
+    box-shadow: none;
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2) textarea{
+    width: 100%;
+    padding: 10px !important;
+    height: 200px !important;
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2) input:last-child{
+    width: 25%;
+    padding: 0px 0px !important;
+    height: 60px;
+    background-color: #a48ecf;
+    color: #ececec;
+    border-radius: 0px;
+    transition: 300ms;
+}
+#consultation .container-fluid .col-xxl-6:nth-child(2) input:last-child:hover{
+    background-color: white;
+    border: #a48ecf 1px solid;
+    color: #a48ecf;
+}
+
+
+@media(max-width:768px){
+    #consultation .container-fluid .col-xxl-6:nth-child(2) input:last-child{
+        width: 50%;
+    }
+}

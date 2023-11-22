@@ -1,0 +1,55 @@
+#contact-info .container-fluid{
+    width: 70%;
+    margin: 70px auto;
+}
+.container-fluid .col-xxl-4{
+    text-align: center;
+}
+.container-fluid .col-xxl-4 h3{
+    margin: 25px 0px;
+    font-family: 'Playfair Display', serif;
+}
+#contact-info .container-fluid .contact-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 35px;
+    background-color: #A48ECF;
+    color: white;
+    margin-top: 10%;
+}
+#contact-info .container-fluid .contact-icon-two{
+    background-color: #FFE4B4;
+}
+#contact-info .container-fluid .contact-icon-tree{
+    background-color: #B8BBC6;
+}
+.container-fluid .col-xxl-4 p{
+    color: #616161;
+}
+#contact-map .container-fluid{
+    width: 90%;
+    margin: 50px auto;
+}
+#contact-map .container-fluid iframe{
+    width: 100%;
+    height: 700px;
+}
+
+@media(max-width:768px){
+
+}
+@media(min-width:768px) and (max-width:992px){
+
+}
+@media(min-width:992px) and (max-width:1200px){
+
+  
+}
+@media(min-width:1200px) and (max-width:1400px){
+   
+  
+}
+@media(min-width:1400px) and (max-width:1600px){
+  
+}

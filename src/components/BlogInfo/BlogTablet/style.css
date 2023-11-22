@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Overpass:ital,wght@0,400;1,300&family=Playfair+Display&family=Poppins:wght@100&family=Quicksand&family=Roboto:wght@100&display=swap');
+#blog-tablet{
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#blog-tablet .container{
+    padding: 50px;
+}
+#blog-tablet .container-date{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#blog-tablet .container-date{
+    margin: 20px 0px;
+    color: #616161;
+}
+#blog-tablet img{
+    width: 100%;
+}
+#blog-tablet h2{
+    font-family: 'Playfair Display', serif;
+    margin: 15px 0px;
+}
+#blog-tablet p{
+    color: #616161;
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    margin: 25px 0px !important;
+}
+.link{
+    font-family: 'Playfair Display', serif;
+    color: #616161;
+}
+h2{
+    color: #616161;
+}
+.blog-img-overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    transition: 500ms;
+
+}
+#blog-tablet .container-blog-img:hover .blog-img-overlay{
+    opacity: 0.9;
+    cursor: pointer;
+    z-index: 99;
+    
+}
+.container-blog-img{
+    height: 400px;
+    background-position: 100% 100%;
+    background-size: cover;
+    position: relative;
+}
+.container-blog-img{
+    background-position: 50% 50%;
+
+}
+@media(max-width:768px){
+    #blog .blog-detail-container{
+        width: 100% !important;
+    }
+    #blog-tablet .container{
+        padding: 10px;
+    }
+    .container-blog-img{
+        height: 300px;
+    }
+    #blog-tablet .container-date{
+        width: 50%;
+    }
+}

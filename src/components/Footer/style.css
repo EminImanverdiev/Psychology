@@ -1,0 +1,78 @@
+footer .container-fluid{
+    width: 90%;
+    margin: 0px auto;
+    background-color: #3a3c45;
+    padding: 50px 0px;
+}
+footer .container-fluid .row{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: left;
+}
+footer .logo{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 40px;
+}
+footer .foot-social-icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.foot-icon{
+    color: #a19aaf;
+}
+footer .row .col-xxl-3{
+    display: flex;
+}
+footer .row .col-xxl-3 h3{
+    margin-top: 70px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+footer .logo-box p{
+    color: #bebebe;
+    font-size: 14px;
+    font-weight: 500;
+}
+footer .row .col-xxl-3 ul{
+    list-style: none;
+    padding-left: 0px !important;
+}
+footer .row .col-xxl-3 .box-kind-therapy{
+    margin-left: 30px;
+}
+footer .row .col-xxl-3 ul li{
+    margin-top: 15px;
+}
+footer .row .col-xxl-3 ul a,footer .row .col-xxl-3 span{
+    color: #bebebe;
+    font-size: 14px;
+}
+footer .row .col-xxl-3 span {
+    margin-left: 7px;
+}
+footer .row .col-xxl-3 .box-content-portfolio {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .row .col-xxl-3 .box-content-portfolio img{
+    width: 30%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:768px){
+    footer .row .col-xxl-3 .box-kind-therapy{
+        margin-left: 0px !important;
+    }
+    footer .container-fluid{
+        width: 100%;
+    }
+}

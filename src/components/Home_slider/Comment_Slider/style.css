@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Overpass:ital,wght@0,400;1,300&family=Playfair+Display&family=Poppins:wght@100&family=Quicksand&family=Roboto:wght@100&display=swap');
+#comment-slider .container-fluid{
+    width: 90%;
+    margin: 20px auto;
+}
+#comment-slider .container-fluid .col-xxl-4{
+    background-color: #FFE4B4;
+    height: 100%;
+    height: 400px;
+
+}
+#comment-slider .container-fluid .col-xxl-8{
+    background-color: #3A3C45;
+}
+#comment-slider .container-fluid{
+    position: relative;
+}
+#comment-slider  .carousel-comment {
+    width: 70%;
+    position: absolute;
+    z-index: 93399;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#comment-slider  .carousel-card{
+    width: 97% !important;
+    padding: 50px;
+    background-image: url(../../../assets/images/svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+
+}
+#comment-slider .carousel-card p{
+    color: #616161;
+    font-family: 'Overpass', sans-serif;
+    margin: 10px 0px;
+}
+.slick-dots li button::before{
+    display: none;
+}
+.carousel-bottom{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+.carousel-bottom img{
+    object-fit: contain;
+}
+.carousel-bottom p{
+    color: #B8BBC6 !important;
+}
+@media(max-width:768px){
+    #comment-slider .carousel-card{
+        padding: 10px;
+    }
+    #comment-slider .carousel-card p{
+        font-size: 12px;
+    }
+    #comment-slider .carousel-card h4{
+        font-size: 16px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    #comment-slider .carousel-card{
+        padding: 30px;
+    }
+}

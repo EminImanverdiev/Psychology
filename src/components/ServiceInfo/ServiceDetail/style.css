@@ -1,0 +1,5 @@
+@media(max-width:768px){
+    #service-detail .tablet-widget-img{
+        height: 300px !important;
+    }
+}
